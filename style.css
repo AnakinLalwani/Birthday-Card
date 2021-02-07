@@ -1,4 +1,6 @@
-
+body {
+  overflow: hidden;  
+}
 div {
     width: 650px;
     height: 750px;
