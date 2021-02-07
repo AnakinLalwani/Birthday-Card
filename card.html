@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Birthday Card</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <div class="opencard">
+                <div id="line"></div>
+                <div>
+                    <h2 id="Start">Puzzle Time!</h1>
+                    <img style="margin-top: 75px;" src="puzzle.png">
+                    <label class="puzzle">Time to solve riddles!</label>
+                    <h4 class="puzzle">Q. I am green and surprising and I hiss</h4>
+                    <h5 class="puzzle">(Rules are that once u figuire out the answer click the button and say it out loud. If it is right you will get a clue)</h5>
+                    <button class="btn btn-danger puzzle" onclick="start()">Say the answer when you click this button </button></button>
+                    <textarea id="textbox" class="form-control" readonly="true"></textarea>
+                </div>
+            </div>
+        </center>
+    </body>
+    <script src="edit.js"></script>
+</html>
